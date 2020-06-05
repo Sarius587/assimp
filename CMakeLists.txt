@@ -57,7 +57,7 @@ PROJECT( Assimp VERSION 5.0.1 )
 
 OPTION( BUILD_SHARED_LIBS
   "Build package with shared libraries."
-  ON
+  OFF
 )
 
 OPTION( ASSIMP_BUILD_FRAMEWORK
@@ -78,7 +78,7 @@ OPTION( ASSIMP_ANDROID_JNIIOSYSTEM
 )
 OPTION( ASSIMP_NO_EXPORT
   "Disable Assimp's export functionality."
-  OFF
+  ON
 )
 OPTION( ASSIMP_BUILD_ZLIB
   "Build your own zlib"
@@ -102,7 +102,7 @@ OPTION ( ASSIMP_COVERALLS
 )
 OPTION( ASSIMP_INSTALL
   "Disable this if you want to use assimp as a submodule."
-  ON
+  OFF
 )
 OPTION ( ASSIMP_ERROR_MAX
   "Enable all warnings."
