@@ -75,6 +75,7 @@ test/gtest/src/gtest-stamp/Debug/gtest-patch
 test/gtest/src/gtest-stamp/Debug/gtest-build
 *.suo
 *.lib
+*.pdb
 test/gtest/src/gtest-stamp/Debug/
 tools/assimp_view/assimp_viewer.vcxproj.user
 *.pyc
